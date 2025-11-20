@@ -1,7 +1,6 @@
-public class CoinChange {
-    import java.util.Arrays;
+import java.util.Arrays;
 
-class Solution {
+class CoinChange {
     public int coinChange(int[] coins, int amount) {
         int max = amount + 1;  // a large number
         int[] dp = new int[amount + 1];
@@ -18,4 +17,4 @@ class Solution {
     }
 }
 
-}
+
