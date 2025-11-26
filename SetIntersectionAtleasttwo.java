@@ -34,7 +34,7 @@ public class SetIntersectionAtleasttwo {
 
 
     public static void main(String[] args) {
-        int[][] intervals = {{1, 3}, {3, 7}, {8, 9}};
+        int[][] intervals = {{1, 3}, {1, 4}, {2, 3},{3,5}};
         int result = intersectionSizeTwo(intervals);
         System.out.println(result);
     }

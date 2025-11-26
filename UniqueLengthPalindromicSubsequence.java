@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class UniqueLengthPalindromicSubsequence {
+public class UniqueLengthPalindromicSubsequence 
 
     public static void helper(String s, String input, int indx, Set<String> set){
         if(input.length()>3) return;
@@ -29,4 +29,4 @@ public class UniqueLengthPalindromicSubsequence {
         int result = countPalindromicSubsequence(s);
         System.out.println(result);  // Expected output: 3 (aaa, aba, aca)
     }
-}
+
